@@ -42,7 +42,7 @@ client.on("message",message=>{
 			}
 			message.channel.send("Server is starting up!");
 		}
-		if(statusHTML==="Loading ...")
+		if(statusHTML==="Preparing ..." || statusHTML==="Loading ...")
 		{
 			message.channel.send("Server is starting up!");
 		}
